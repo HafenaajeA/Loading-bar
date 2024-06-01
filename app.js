@@ -10,7 +10,7 @@ function updateNum() {
   counterEl.innerText = idx + "%";
   barEl.style.width = idx + "%";
   idx++;
-  if (idx < 105) {
+  if (idx < 101) {
     // this has to load every 20ms
     setTimeout(updateNum, 20);
   }
