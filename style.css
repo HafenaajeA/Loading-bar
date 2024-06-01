@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(0, 207, 45);
+  color: darkblue;
+  font-family: monospace, sans-serif;
+}
+.container {
+  text-align: center;
+  width: 400px;
+  /* set the relative to the container and absolute to the .loading-bar-back/front class */
+  position: relative;
+}
+.counter {
+  font-size: 40px;
+}
+/* making the back bar */
+.loading-bar-back {
+  position: absolute;
+  height: 8px;
+  background-color: lightgray;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.loading-bar-front {
+  position: absolute;
+  height: 8px;
+  background-color: darkblue;
+  width: 0%;
+  border-radius: 5px;
+  border: none;
+}
